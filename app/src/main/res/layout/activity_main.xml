@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/andoidPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Android Phone"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/chooseAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Choose!"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/IOSphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Ios Phone"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/chooseIOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Choose!"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_btn"
+        android:text="Tolem zhasau turi"
+        android:textSize="20dp">
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/tolem_jasau_radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+
+        android:id="@+id/kartochka_radioBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank kartochkasy arkyly"/>
+    <RadioButton
+        android:id="@+id/kolmakol_radioBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kolma kol"/>
+
+    <RadioButton
+        android:id="@+id/qiwi_radioBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qiwi wallet"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siylyk jetkizu turi"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <CheckBox
+        android:id="@+id/uige_checkBOX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="uige"/>
+
+    <CheckBox
+        android:id="@+id/syilyk_checkBOX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="syilyk retinde"/>
+
+        <Button
+            android:id="@+id/jiberu_btn"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jiberu"/>
+</LinearLayout>
